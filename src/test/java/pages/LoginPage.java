@@ -14,6 +14,9 @@ public class LoginPage {
     @FindBy(css = "[type=submit]")
     WebElement btnSubmit;
 
+    @FindBy(tagName = "h6")
+    public WebElement AssertLoginSuccessful;
+
     public LoginPage(WebDriver driver){
         PageFactory.initElements(driver,this);
     }

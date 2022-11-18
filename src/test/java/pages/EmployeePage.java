@@ -17,6 +17,9 @@ public class EmployeePage {
     @FindBy(className = "oxd-button")
     public List<WebElement> addButton;
 
+    @FindBy(className = "oxd-topbar-body-nav-tab-item")
+    public List<WebElement> addEmployee;
+
     @FindBy(name = "firstName")
     WebElement txtFirstName;
     @FindBy(name = "lastName")
@@ -34,6 +37,18 @@ public class EmployeePage {
 
     @FindBy(className = "orangehrm-main-title")
     public List<WebElement> headerTitle;
+
+    @FindBy(className = "oxd-table-cell")
+    public List<WebElement> searchResultId;
+
+    @FindBy(tagName = "h6")
+    public List<WebElement> AssertCreateEmployee;
+
+    @FindBy(className = "oxd-input-field-error-message")
+    public WebElement lblValidationError;
+
+    @FindBy(className = "oxd-text")
+    public List<WebElement> AssertSearchInvalidId;
 
     public EmployeePage(WebDriver driver) {
         PageFactory.initElements(driver, this);
@@ -55,5 +70,10 @@ public class EmployeePage {
     public void searchEmployeeById(String employeeId) {
         txtUserCred.get(1).sendKeys(employeeId);
         btnSubmit.click();
+    }
+
+    public String checkIfUserExist(String username){
+        txtUserCred.get(5).sendKeys(username);
+        return lblValidationError.getText();
     }
 }

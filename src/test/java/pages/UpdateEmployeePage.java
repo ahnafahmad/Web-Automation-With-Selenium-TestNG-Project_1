@@ -17,9 +17,27 @@ public class UpdateEmployeePage {
     @FindBy(className = "oxd-select-text-input")
     public List<WebElement> EditNationality;
 
+    @FindBy(css = "[type=submit")
+    public List<WebElement> btnSubmit;
+
+    @FindBy(css = "[placeholder=yyyy-mm-dd]")
+    public List<WebElement> dateUpdate;
+
+    @FindBy(className = "oxd-radio-input")
+    public List<WebElement> genderUpdate;
+
+    @FindBy(className = "oxd-radio-input")
+    public List<WebElement> genderUpdateAssertion;
+
+    @FindBy(className = "oxd-select-text-input")
+    public List<WebElement> AssertNatinality;
+
+    @FindBy(className = "oxd-userdropdown-tab")
+    public WebElement logout;
+
+    
     public UpdateEmployeePage(WebDriver driver){
         PageFactory.initElements(driver,this);
     }
-
 
 }

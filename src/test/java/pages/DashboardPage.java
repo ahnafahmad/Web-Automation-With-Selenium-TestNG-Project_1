@@ -16,8 +16,8 @@ public class DashboardPage {
     @FindBy(className="oxd-userdropdown-img")
     public WebElement imgProfile;
 
-    @FindBy(className = "orangehrm-todo-list-item")
-    public List<WebElement> canditateToInterviewOption;
+    @FindBy(css = "[title=Timesheets]")
+    public List<WebElement> timeSheetsOption;
 
     @FindBy(className = "oxd-topbar-header-title")
     public WebElement txtRecruitment;
