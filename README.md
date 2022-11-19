@@ -77,7 +77,7 @@ allure generate allure-results --clean -o allure-report
 
 ## Testcases for this Report
 
-[Login-Form-Automation-Selenium-TestNG](https://docs.google.com/spreadsheets/d/1ETQPF2jd0ygaB65IUPpsAGzJ74iXErXLA00gbPkCdog/edit#gid=0)
+[Orange HRM-Website-Automation-Selenium-TestNG](https://docs.google.com/spreadsheets/d/1ETQPF2jd0ygaB65IUPpsAGzJ74iXErXLA00gbPkCdog/edit#gid=0)
 
 ## Selenium TestNG Automation Report Image
 
