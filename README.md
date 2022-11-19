@@ -99,3 +99,10 @@ allure generate allure-results --clean -o allure-report
 
 
 ![TestNG Automation-4](https://user-images.githubusercontent.com/58990500/202847838-ece94585-6b0a-4868-96c0-0ac4a68b01cc.PNG)
+
+
+## Output Video of the Project
+
+
+https://user-images.githubusercontent.com/58990500/202848207-3a906835-01c6-4242-ab03-320d3c90cd72.mp4
+
