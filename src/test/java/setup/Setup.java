@@ -14,7 +14,6 @@ public class Setup {
 
     @BeforeTest
     public void setup() {
-
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.manage().window().maximize();
@@ -36,7 +35,7 @@ public class Setup {
 
 
     @AfterTest
-    public void quitBrowser(){
+    public void quitBrowser() {
         driver.close();
     }
 

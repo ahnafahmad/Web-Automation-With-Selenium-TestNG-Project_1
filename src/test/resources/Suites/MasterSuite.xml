@@ -3,8 +3,8 @@
 <suite name="Master Suite">
     <suite-files>
         <suite-file path="DasboardSuite.xml"></suite-file>
-                <suite-file path="EmployeeTestSuite.xml"></suite-file>
-                <suite-file path="EmployeeInfoUpdateSuite.xml"></suite-file>
+        <suite-file path="EmployeeTestSuite.xml"></suite-file>
+        <suite-file path="EmployeeInfoUpdateSuite.xml"></suite-file>
 
     </suite-files>
 </suite>
