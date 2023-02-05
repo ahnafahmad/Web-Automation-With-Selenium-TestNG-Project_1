@@ -59,7 +59,7 @@ public class EmployeeTestRunner extends Setup {
     }
 
 
-    @Test(priority = 2, description = "Admin Can create Employee")
+    @Test(priority = 2, description = "Admin Can Create Employee")
     public void createEmployee() throws InterruptedException, IOException, ParseException {
 
         employeePage = new EmployeePage(driver);
@@ -112,7 +112,7 @@ public class EmployeeTestRunner extends Setup {
         }
     }
 
-    @Test(priority = 3, description = "Searching with Invalid Employee Id")
+    @Test(priority = 3, description = "Searching With Invalid Employee Id")
     public void searchInvalidEmployeeId() throws InterruptedException {
 
         employeePage = new EmployeePage(driver);
@@ -136,7 +136,7 @@ public class EmployeeTestRunner extends Setup {
     }
 
 
-    @Test(priority = 4, description = "Searching with valid Employee Id")
+    @Test(priority = 4, description = "Searching with Valid Employee Id")
     public void searchEmployeeById() throws IOException, ParseException, InterruptedException {
 
         String file = "./src/test/resources/employee.json";
