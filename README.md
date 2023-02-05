@@ -27,7 +27,7 @@
   ## How to Generate Allure Report: 
  Automated Orange HRM Websited using Selenium & JUnit where test cases are added for Admin Login, Creating Employee Id, Searching Employees By their Id, Employee login, Updating the Employee Information & Logout from the System.
  Steps to generate the report:
- - Give the following commands by opening terminal in the project folder to create newman Report:
+ - Give the following commands by opening terminal in the project folder to create Allure Report:
 ```
 allure generate allure-results --clean -o allure-report
  ```
