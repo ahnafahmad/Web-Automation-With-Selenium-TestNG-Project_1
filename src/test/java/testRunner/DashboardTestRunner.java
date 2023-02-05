@@ -32,7 +32,7 @@ public class DashboardTestRunner extends Setup {
     }
 
 
-    @Test(priority = 2,description = "user can login with Valid credentials")
+    @Test(priority = 2,description = "User Can Login With Valid Credentials")
     public void doLogin() throws InterruptedException {
         driver.get("https://opensource-demo.orangehrmlive.com");
         loginPage = new LoginPage(driver);
