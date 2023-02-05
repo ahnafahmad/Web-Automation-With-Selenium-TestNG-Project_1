@@ -1,12 +1,10 @@
 package pages;
 
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import java.nio.charset.StandardCharsets;
 import java.util.List;
 
 public class EmployeePage {
@@ -22,13 +20,16 @@ public class EmployeePage {
 
     @FindBy(name = "firstName")
     WebElement txtFirstName;
+
     @FindBy(name = "lastName")
     WebElement txtLastName;
 
     @FindBy(className = "oxd-input")
     public List<WebElement> txtUserCred;
+
     @FindBy(css = "[type=submit]")
     WebElement btnSubmit;
+
     @FindBy(className = "oxd-switch-input")
     public WebElement toggleButton;
 
