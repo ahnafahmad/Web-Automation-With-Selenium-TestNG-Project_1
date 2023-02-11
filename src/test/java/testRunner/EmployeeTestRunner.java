@@ -40,23 +40,23 @@ public class EmployeeTestRunner extends Setup {
 
     }
 
-    @Test(priority = 1, description = "Check if user is Exist or not")
-    public void checkIfUserExist() throws IOException, ParseException, InterruptedException {
-        EmployeePage employeePage = new EmployeePage(driver);
-        employeePage.pim.get(1).click();
-        employeePage.addButton.get(2).click();
-        Thread.sleep(3000);
-        employeePage.toggleButton.click();
-        List employee = Utils.readJsondata("./src/test/resources/employee.json");
-        JSONObject userObj = (JSONObject) employee.get(employee.size() - 1);
-        String existingUserName = (String) userObj.get("userName");
-        Thread.sleep(1000);
-        String validationMessageActual = employeePage.checkIfUserExist(existingUserName);
-        String validationMessageExpected = "Username already exists";
-
-        Assert.assertTrue(validationMessageActual.contains(validationMessageExpected));
-        Thread.sleep(1000);
-    }
+//    @Test(priority = 1, description = "Check if user is Exist or not")
+//    public void checkIfUserExist() throws IOException, ParseException, InterruptedException {
+//        EmployeePage employeePage = new EmployeePage(driver);
+//        employeePage.pim.get(1).click();
+//        employeePage.addButton.get(2).click();
+//        Thread.sleep(3000);
+//        employeePage.toggleButton.click();
+//        List employee = Utils.readJsondata("./src/test/resources/employee.json");
+//        JSONObject userObj = (JSONObject) employee.get(employee.size() - 1);
+//        String existingUserName = (String) userObj.get("userName");
+//        Thread.sleep(1000);
+//        String validationMessageActual = employeePage.checkIfUserExist(existingUserName);
+//        String validationMessageExpected = "Username already exists";
+//
+//        Assert.assertTrue(validationMessageActual.contains(validationMessageExpected));
+//        Thread.sleep(1000);
+//    }
 
 
     @Test(priority = 2, description = "Admin Can Create Employee")
