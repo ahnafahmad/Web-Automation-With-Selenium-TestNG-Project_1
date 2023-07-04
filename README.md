@@ -39,16 +39,16 @@ allure generate allure-results --clean -o allure-report
   - Some gradle dependency is must for run this project
   These are: 
  ```
- // https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java
-    implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.5.0'
+// https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java
+    implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.9.1'
  ```
  ```
- // https://mvnrepository.com/artifact/org.testng/testng
-    testImplementation group: 'org.testng', name: 'testng', version: '7.5'
+// https://mvnrepository.com/artifact/org.testng/testng
+    testImplementation group: 'org.testng', name: 'testng', version: '7.7.1'
 ```
 ```
 // https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager
-    implementation group: 'io.github.bonigarcia', name: 'webdrivermanager', version: '5.3.0'
+    implementation group: 'io.github.bonigarcia', name: 'webdrivermanager', version: '5.3.2'
 ```
 ```
 // https://mvnrepository.com/artifact/com.github.javafaker/javafaker
