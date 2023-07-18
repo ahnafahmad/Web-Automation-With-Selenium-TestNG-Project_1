@@ -1,4 +1,4 @@
-# Web-Automation-With-Selenium-TestNG
+# Web Automation With Selenium TestNG
 
 
 ## Tool used in this Project
@@ -11,23 +11,23 @@
 
  ## Project Scenarios
  - Admin can Login to the System.
- - Admin can Create 2 Emoloyees Id.
+ - Admin can Create 2 Employees' IDs.
  - Admin can Search the Employees by their Id.
- - Employee can Login with their self Credentials.
+ - Employees can Login with their self Credentials.
  - Employee can Update their Information.
- - Employee can Logout from the System.
+ - Employee can Logout of the System.
 
  ## How to run this project:
  - Clone this project [Web-Automation-with-Selenium_TestNG](https://github.com/ahnafahmad/Web-Automation-With-Selenium-TestNG.git)
- - hit the following command:
+ - Hit the following command:
   ```
  gradle clean test
  ```
  
   ## How to Generate Allure Report: 
- Automated Orange HRM Websited using Selenium & JUnit where test cases are added for Admin Login, Creating Employee Id, Searching Employees By their Id, Employee login, Updating the Employee Information & Logout from the System.
+ Automated Orange HRM website using Selenium & JUnit where test cases are added for Admin Login, Creating Employee Id, Searching Employees By their Id, Employee login, Updating the Employee Information & Logout from the System.
  Steps to generate the report:
- - Give the following commands by opening terminal in the project folder to create Allure Report:
+ - Give the following commands by opening the terminal in the project folder to create Allure Report:
 ```
 allure generate allure-results --clean -o allure-report
  ```
@@ -36,7 +36,7 @@ allure generate allure-results --clean -o allure-report
 ```
 
  ## Prerequisite
-  - Some gradle dependency is must for run this project
+  - Some gradle dependencies are a must for running this project
   These are: 
  ```
 // https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java
