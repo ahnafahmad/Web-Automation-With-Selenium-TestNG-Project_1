@@ -24,7 +24,7 @@
  gradle clean test
  ```
  
-  ## How to Generate Allure Report: 
+  ## How to Generate an Allure Report: 
  Automated Orange HRM website using Selenium & JUnit where test cases are added for Admin Login, Creating Employee Id, Searching Employees By their Id, Employee login, Updating the Employee Information & Logout from the System.
  Steps to generate the report:
  - Give the following commands by opening the terminal in the project folder to create Allure Report:
