@@ -11,11 +11,11 @@
 
  ## Project Scenarios
  - Admin can Login to the System.
- - Admin can Create 2 Employees' IDs.
- - Admin can Search the Employees by their Id.
- - Employees can Login with their self Credentials.
- - Employee can Update their Information.
- - Employee can Logout of the System.
+ - Admin can Create two Employees' IDs.
+ - Admin can Search the Employees by their ID.
+ - Employees can Login with their own Credentials.
+ - Employees can Update their Information.
+ - Employees can Logout of the System.
 
  ## How to run this project:
  - Clone this project [Web-Automation-with-Selenium_TestNG](https://github.com/ahnafahmad/Web-Automation-With-Selenium-TestNG.git)
