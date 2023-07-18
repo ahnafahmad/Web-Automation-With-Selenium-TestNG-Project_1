@@ -28,6 +28,7 @@ public class Utils {
 
         int number = (int) Math.floor(Math.random() * (max - min) + min);
         return number;
+
     }
 
 
