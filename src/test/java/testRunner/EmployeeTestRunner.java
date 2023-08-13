@@ -104,15 +104,14 @@ public class EmployeeTestRunner extends Setup {
             Utils.waitForElement(driver, employeePage.headerTitle.get(0), 50);
             if (employeePage.headerTitle.get(0).isDisplayed()) {
                 utils.saveJsonList(userName, password, employeeId);
-
+                Thread.sleep(3000);
+            }
 
                 //Assertion
                 String actualResult = employeePage.AssertCreateEmployee.get(2).getText();
                 String expectedResult = "Personal Details";
                 Assert.assertTrue(actualResult.contains(expectedResult));
                 Thread.sleep(2000);
-
-            }
 
         }
     }
@@ -133,7 +132,7 @@ public class EmployeeTestRunner extends Setup {
 
 
         //Assertion
-        String DataActual = employeePage.AssertSearchInvalidId.get(13).getText();
+        String DataActual = employeePage.AssertSearchInvalidId.get(14).getText();
         String DataExpected = "No Records Found";
         Assert.assertTrue(DataActual.contains(DataExpected));
         Thread.sleep(1000);
