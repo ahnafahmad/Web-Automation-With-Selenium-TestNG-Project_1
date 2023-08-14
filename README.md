@@ -1,4 +1,4 @@
-# Web Automation With Selenium-Java TestNG
+# Orange-HRM: Website Automation With Selenium-Java TestNG
 
 
 ## Tool used in this Project
