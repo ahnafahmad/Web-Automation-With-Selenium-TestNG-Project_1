@@ -2,15 +2,15 @@
 
 <br>
 
-## Tool used in this Project: <br>
+### Tool used in this Project: <br>
  - Selenium
 <br><br>
 
-## Framework used in this Project: <br>
+### Framework used in this Project: <br>
  - TestNG
 <br><br>
 
- ## Project Scenarios: <br>
+ ### Project Scenarios: <br>
  - Admin can Login to the System.
  - Admin can Create two Employees' IDs.
  - Admin can Search the Employees by their ID.
@@ -19,7 +19,7 @@
  - Employees can Logout of the System.
   <br><br>
 
- ## How to run this project: <br>
+ ### How to run this project: <br>
  - Clone this project [Web-Automation-with-Selenium_TestNG](https://github.com/ahnafahmad/Web-Automation-With-Selenium-TestNG.git)
  - Hit the following command:
   ```
@@ -28,7 +28,7 @@
 <br><br>
 
  
-  ## How to Generate an Allure Report: <br>
+  ### How to Generate an Allure Report: <br>
  Automated Orange HRM website using Selenium & TestNG where test cases are added for Admin Login, Creating Employee Id, Searching Employees By their Id, Employee login, Updating the Employee Information & Logout from the System.
  Steps to generate the report:
  - Give the following commands by opening the terminal in the project folder to create Allure Report:
@@ -40,7 +40,7 @@ allure generate allure-results --clean -o allure-report
 ```
 <br><br>
 
- ## Prerequisite: <br>
+ ### Prerequisite: <br>
   - Some gradle dependencies are a must for running this project
   These are: 
  ```
@@ -81,13 +81,13 @@ allure generate allure-results --clean -o allure-report
 ```
 <br><br>
 
-## Testcases for this Report: <br>
+### Testcases for this Report: <br>
 
 [Orange HRM-Website-Automation-Selenium-TestNG](https://docs.google.com/spreadsheets/d/1ETQPF2jd0ygaB65IUPpsAGzJ74iXErXLA00gbPkCdog/edit#gid=0)
 <br><br>
 
 
-## Selenium TestNG Automation Report Image: <br>
+### Selenium TestNG Automation Report Image: <br>
 
 
 ![TestNG Automation-1](https://user-images.githubusercontent.com/58990500/202847791-ff733fd2-f304-47b1-9609-b52f4a65e658.PNG)
@@ -109,7 +109,7 @@ allure generate allure-results --clean -o allure-report
 ![TestNG Automation-4](https://user-images.githubusercontent.com/58990500/202847838-ece94585-6b0a-4868-96c0-0ac4a68b01cc.PNG)
 
 
-## Output Video of the Project: <br>
+### Output Video of the Project: <br>
 
 
 https://user-images.githubusercontent.com/58990500/202848207-3a906835-01c6-4242-ab03-320d3c90cd72.mp4
