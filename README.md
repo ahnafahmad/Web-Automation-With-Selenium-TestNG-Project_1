@@ -1,4 +1,4 @@
-<h1>Orange-HRM: Website Automation With Selenium-Java TestNG</h1> 
+<h2>Orange-HRM: Website Automation With Selenium-Java TestNG</h2> 
 
 <br>
 
